@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sip City</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <section class="flex">
+            <a href="#home" class="logo"><img src="img/scc.png" alt=""></a>
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#menu">Menu</a>
+                <a href="#contact">Contact Us</a>
+            </nav>
+        </section>
+    </header>
+
+
+    <div class="home-bg">
+        <section class="home" id="home">
+            <div class="content">
+                <h3>Sip City</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda tenetur voluptas aut debitis dolor
+                    iure,</p>
+                <a href="#about" class="btn">About Us</a>
+
+            </div>
+        </section>
+    </div>
+
+    <section class="about" id="about">
+        <div class="image">
+            <img src="img/p2.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>A cup of coffee can complete your day</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, reiciendis fugit libero modi obcaecati
+                cumque odit perspiciatis, illo suscipit perferendis quod eligendi tempora qui autem odio nam maxime
+                similique voluptatum.</p>
+            <a href="#menu" class="btn">Our Menu</a>
+        </div>
+    </section>
+
+
+    <section class="facility">
+        <div class="heading">
+            <h3>Our Facility</h3>
+        </div>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="img/icons8-coffee-100 (1).png" alt="">
+                <h3>varieties of coffee</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis nihil soluta, excepturi mollitia
+                    maiores iste.</p>
+            </div>
+            <div class="box">
+                <img src="img/icons8-coffee-beans-100.png" alt="">
+                <h3>coffee beans</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis nihil soluta, excepturi mollitia
+                    maiores iste.</p>
+            </div>
+            <div class="box">
+                <img src="img/icons8-croissant-100.png" alt="">
+                <h3>morning breakfast</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis nihil soluta, excepturi mollitia
+                    maiores iste.</p>
+            </div>
+
+            <div class="box">
+                <img src="img/icons8-coffee-100.png" alt="">
+                <h3>ready to go coffee</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis nihil soluta, excepturi mollitia
+                    maiores iste.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="menu" id="menu">
+        <div class="heading">
+            <h3>Our Menu</h3>
+        </div>
+        <div class="box-container">
+            <div class="box">
+                <img src="img/icecoffee-removebg-preview.png" alt="">
+                <h3>iced coffee</h3>
+            </div>
+            <div class="box">
+                <img src="img/latte.png" alt="">
+                <h3>latte</h3>
+            </div>
+            <div class="box">
+                <img src="img/arcof.png" alt="">
+                <h3>arabic coffee</h3>
+            </div>
+            <div class="box">
+                <img src="img/americano.png" alt="">
+                <h3>americano</h3>
+            </div>
+            <div class="box">
+                <img src="img/cappuccino.png" alt="">
+                <h3>cappuccino</h3>
+            </div>
+            <div class="box">
+                <img src="img/espresso.png" alt="">
+                <h3>espresso</h3>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="contact" id="contact">
+        <div class="heading">
+            <h3>contact us</h3>
+        </div>
+        <div class="row">
+
+            <img src="img/contact.png" alt="">
+            <form action="" method="post">
+                <h3>book a table</h3>
+                <input type="text" name="name" required class="box" maxlength="20" placeholder="enter your name">
+                <input type="number" name="number" required class="box" maxlength="20" placeholder="enter your number"
+                    min="0" max="999999" onkeypress="if(this.value.length == 10) return false">
+                <input type="number" name="guests" required class="box" maxlength="20" placeholder="how many guests"
+                    min="0" max="99" onkeypress="if(this.value.length == 2) return false">
+                <input type="submit" name="send" value="send message" class="btn">
+            </form>
+        </div>
+    </section>
+
+
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-envelope"></i>
+                <h3>our email</h3>
+                <p>info@sipcity.com</p>
+
+            </div>
+            <div class="box">
+                <i class="fas fa-clock"></i>
+                <h3>opening hours</h3>
+                <p>10:00 am to 12:00 pm</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-map-marker-alt"></i>
+                <h3>our location</h3>
+                <p>Homs, syria</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-phone"></i>
+                <h3>our number</h3>
+                <p>+963954095247</p>
+                <p>+963934910791</p>
+            </div>
+        </div>
+
+        <div class="credit">
+            &copy; copyright @ 2023 by <span>Sip City</span> | all rights received
+        </div>
+    </section>
+</body>
+
+</html>
